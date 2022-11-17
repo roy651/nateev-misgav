@@ -1,0 +1,19 @@
+{
+  "name": "Basic haaretz unlocker",
+  "image": "heroku/python",
+  "repository": "https://github.com/roy651/haaretz_unlocker",
+  "keywords": [
+    "python",
+    "django"
+  ],
+  "addons": [],
+  "env": {},
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python manage.py collectstatic --noinput",
+        "test": "python manage.py test"
+      }
+    }
+  }
+}

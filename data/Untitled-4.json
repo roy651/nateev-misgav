@@ -1,0 +1,219 @@
+[
+    {
+        "LineID": 37848,
+        "StationID": 52238,
+        "SOrder": 1,
+        "SpecialName": "תרדיון - תרדיון/ביטוח לאומי",
+        "indx": 803280
+    },
+    {
+        "LineID": 37848,
+        "StationID": 52239,
+        "SOrder": 2,
+        "SpecialName": "תרדיון - תרדיון/צ. ירוק כתום",
+        "indx": 803281
+    },
+    {
+        "LineID": 37848,
+        "StationID": 52240,
+        "SOrder": 3,
+        "SpecialName": "תרדיון - תרדיון/תפרון",
+        "indx": 803282
+    },
+    {
+        "LineID": 37848,
+        "StationID": 52241,
+        "SOrder": 4,
+        "SpecialName": "תרדיון - תרדיון/מכללת וינגייט",
+        "indx": 803283
+    },
+    {
+        "LineID": 37848,
+        "StationID": 52242,
+        "SOrder": 5,
+        "SpecialName": "תרדיון - תרדיון/יציאה",
+        "indx": 803284
+    },
+    {
+        "LineID": 37848,
+        "StationID": 51263,
+        "SOrder": 6,
+        "SpecialName": "צומת א.תעשיה תרדיון",
+        "indx": 803268
+    },
+    {
+        "LineID": 37848,
+        "StationID": 50107,
+        "SOrder": 7,
+        "SpecialName": "צומת יובלים",
+        "indx": 803270
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59800,
+        "SOrder": 8,
+        "SpecialName": "רקפת - מרכז שירותים",
+        "indx": 803273
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59801,
+        "SOrder": 9,
+        "SpecialName": "מרכז אזורי מישגב - מועצה אזורית משגב",
+        "indx": 803274
+    },
+    {
+        "LineID": 37848,
+        "StationID": 54145,
+        "SOrder": 10,
+        "SpecialName": "מסעף משגב",
+        "indx": 803275
+    },
+    {
+        "LineID": 37848,
+        "StationID": 53797,
+        "SOrder": 11,
+        "SpecialName": "צומת יובלים",
+        "indx": 804198
+    },
+    {
+        "LineID": 37848,
+        "StationID": 54149,
+        "SOrder": 12,
+        "SpecialName": "צומת אשבל",
+        "indx": 804199
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59802,
+        "SOrder": 13,
+        "SpecialName": "שורשים - שורשים",
+        "indx": 351142
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59802,
+        "SOrder": 13,
+        "SpecialName": "שורשים - שורשים",
+        "indx": 807260
+    },
+    {
+        "LineID": 37848,
+        "StationID": 51671,
+        "SOrder": 14,
+        "SpecialName": "צומת שורשים",
+        "indx": 804200
+    },
+    {
+        "LineID": 37848,
+        "StationID": 50578,
+        "SOrder": 15,
+        "SpecialName": "כרמיאל - מחלף גשר מוטה גור",
+        "indx": 806097
+    },
+    {
+        "LineID": 37848,
+        "StationID": 50585,
+        "SOrder": 16,
+        "SpecialName": "ביענה - צומת כרמיאל מערב",
+        "indx": 806098
+    },
+    {
+        "LineID": 37848,
+        "StationID": 50544,
+        "SOrder": 17,
+        "SpecialName": "כרמיאל - צומת ביענה",
+        "indx": 806150
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59782,
+        "SOrder": 18,
+        "SpecialName": "צומת צורית",
+        "indx": 806595
+    },
+    {
+        "LineID": 37848,
+        "StationID": 55809,
+        "SOrder": 19,
+        "SpecialName": "גילון - ברקת/תרשיש",
+        "indx": 7500304
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59787,
+        "SOrder": 20,
+        "SpecialName": "צורית - האלון/יהלום",
+        "indx": 806600
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59788,
+        "SOrder": 21,
+        "SpecialName": "צורית - האלון/הזית",
+        "indx": 806601
+    },
+    {
+        "LineID": 37848,
+        "StationID": 55784,
+        "SOrder": 22,
+        "SpecialName": "צורית - צורית/יציאה",
+        "indx": 7500305
+    },
+    {
+        "LineID": 37848,
+        "StationID": 52950,
+        "SOrder": 23,
+        "SpecialName": "צומת צורית",
+        "indx": 806260
+    },
+    {
+        "LineID": 37848,
+        "StationID": 55146,
+        "SOrder": 24,
+        "SpecialName": "ת. רכבת אחיהוד/רציפים",
+        "indx": 7506809
+    },
+    {
+        "LineID": 37848,
+        "StationID": 51567,
+        "SOrder": 25,
+        "SpecialName": "צומת אחיהוד",
+        "indx": 806254
+    },
+    {
+        "LineID": 37848,
+        "StationID": 53078,
+        "SOrder": 26,
+        "SpecialName": "צומת יאסיף",
+        "indx": 806255
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59792,
+        "SOrder": 27,
+        "SpecialName": "מסעף טל אל",
+        "indx": 806606
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59793,
+        "SOrder": 28,
+        "SpecialName": "טל אל - טל אל 1",
+        "indx": 806607
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59794,
+        "SOrder": 29,
+        "SpecialName": "טל אל - הברוש/הזית",
+        "indx": 806608
+    },
+    {
+        "LineID": 37848,
+        "StationID": 59795,
+        "SOrder": 30,
+        "SpecialName": "טל אל - הברוש/הרימון",
+        "indx": 806609
+    }
+]

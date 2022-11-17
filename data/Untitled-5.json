@@ -1,0 +1,37 @@
+[
+    {
+        "TripID": "50795112",
+        "FromHour": "06:00",
+        "OnCall": "True"
+    },
+    {
+        "TripID": "50795116",
+        "FromHour": "06:45",
+        "OnCall": "True"
+    },
+    {
+        "TripID": "50795117",
+        "FromHour": "10:00",
+        "OnCall": "True"
+    },
+    {
+        "TripID": "50795115",
+        "FromHour": "10:55",
+        "OnCall": "True"
+    },
+    {
+        "TripID": "50795114",
+        "FromHour": "16:10",
+        "OnCall": "True"
+    },
+    {
+        "TripID": "50795113",
+        "FromHour": "18:20",
+        "OnCall": "True"
+    },
+    {
+        "TripID": "50795111",
+        "FromHour": "21:50",
+        "OnCall": "True"
+    }
+]

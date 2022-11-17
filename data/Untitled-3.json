@@ -1,0 +1,40 @@
+{
+    "d": [
+        {
+            "BusLineNo": "139",
+            "OnCall": true,
+            "LineID": 37848,
+            "FromPlace": "תרדיון",
+            "ToPlace": "טל אל",
+            "ISRName": "13901193",
+            "Direction": "ה"
+        },
+        {
+            "BusLineNo": "139",
+            "OnCall": true,
+            "LineID": 37849,
+            "FromPlace": "טל אל",
+            "ToPlace": "תרדיון",
+            "ISRName": "13902193",
+            "Direction": "ח"
+        },
+        {
+            "BusLineNo": "39",
+            "OnCall": false,
+            "LineID": 3756,
+            "FromPlace": "כרמיאל",
+            "ToPlace": "טל אל",
+            "ISRName": "03901093",
+            "Direction": "ה"
+        },
+        {
+            "BusLineNo": "39",
+            "OnCall": false,
+            "LineID": 3757,
+            "FromPlace": "טל אל",
+            "ToPlace": "כרמיאל",
+            "ISRName": "03902093",
+            "Direction": "ח"
+        }
+    ]
+}
