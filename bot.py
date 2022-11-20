@@ -87,6 +87,8 @@ if telegram_bot_token != 'TEST':
 
     dispatcher.add_handler(CommandHandler("order", order))
 
+    dispatcher.add_handler(CommandHandler("version", version))
+
     # invoke the get_link function when the user sends a message 
     # that is not a command.
     # dispatcher.add_handler(MessageHandler(Filters.text, get_link))
