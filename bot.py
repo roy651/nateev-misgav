@@ -5,6 +5,7 @@ import os
 import re
 import requests
 import datetime
+import json
 
 test_order = {
     "FirstName": "משה",
@@ -52,13 +53,13 @@ def order(update, context):
     if result and result["d"]:
         update.message.reply_text("Your order id is: " + result["d"])
     else:
-        update.message.reply_text("Your order failed: " + result)
+        update.message.reply_text("Your order failed: " + json.dumps(result))
     
     return
 
 def _run_order(order):
     url = 'https://www.nateevexpress.com/OnCall/NateevWebService.asmx/AddNewOnCall'
-    x = requests.post(url, json = order)
+    x = requests.post(url, data = json.dumps(order))
     print(x.json())
 
     return x.json()
