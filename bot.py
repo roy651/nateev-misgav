@@ -7,6 +7,8 @@ import requests
 import datetime
 import json
 
+version_id = "0.0.1"
+
 test_order = {
     "FirstName": "משה",
     "LastName": "כהן",
@@ -34,6 +36,11 @@ def start(update, context):
     chat_id = update.effective_chat.id
     context.bot.send_message(chat_id=chat_id, text="/details <first> <last> <phone> OR /order <date> <time>")
 
+def version(update, context):
+    print("Version is:" + version_id)
+    update.message.reply_text("Version is:" + version_id)
+    return
+
 def details(update, context):
     input_details = update.message.text
     print(input_details)
@@ -51,19 +58,22 @@ def order(update, context):
 
     result = _run_order(test_order)
     if result and result["d"]:
-        update.message.reply_text("Your order id is: " + result["d"])
+        update.message.reply_text("Your order id is: " + str(result["d"]))
     else:
-        update.message.reply_text("Your order failed: " + json.dumps(result))
+        update.message.reply_text("Your order failed: " + str(result))
     
     return
 
 def _run_order(order):
     url = 'https://www.nateevexpress.com/OnCall/NateevWebService.asmx/AddNewOnCall'
-    x = requests.post(url, data = json.dumps(order))
-    print(x.json())
-
-    return x.json()
-
+    # x = requests.post(url, data = json.dumps(order))
+    x = requests.post(url, json = order)
+    if x.ok:
+        print(x.json())
+        return x.json()
+    else:
+        print("Error: " + str(x.status_code))
+        return x.text
 
 telegram_bot_token = os.environ['TGRM_TKN']
 if telegram_bot_token != 'TEST':
