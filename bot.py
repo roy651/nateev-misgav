@@ -10,10 +10,10 @@ import json
 version_id = "0.0.1"
 
 test_order = {
-    "FirstName": "משה",
-    "LastName": "כהן",
-    "Phone": "0542345732",
-    "Mobile": "0542345732",
+    "FirstName": "רועי",
+    "LastName": "אביטבול",
+    "Phone": "0542277213",
+    "Mobile": "0542277213",
     "TripID": "50795116",
     "Clerk": "865",
     "HostName": "WebSite",
